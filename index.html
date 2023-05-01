@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+    <div  class="whole">
+       <div>
+         <img src="Logo.png" alt="logo" width="150" height="150">
+       </div>
+       <div  class="land">
+            <h1><a href="#">Home</a></h1> 
+            <h1><a href="#">About</a></h1>
+            <h1><a href="#">Work</a></h1>
+            <h1><a href="#">Resume</a></h1>
+            <h1><a href="#">Contact</a></h1>
+       </div>
+    </div>
+   <div>
+    <body>
+        
+
+
+        <div class="page-preview">
+            <div class="page-preview-header">
+                <a class="hidden-sm hidden-xs active" href="#" id="previewDesktopBtn" data-preview-size="100%"><img alt="Responsive Desktop Mode" src="//csite.nicepage.com/Images/Site/responsive-desktop.png"></a>
+                <a class="hidden-sm hidden-xs" href="#" id="previewLaptopBtn" data-preview-size="1040px"><img alt="Responsive Laptop Mode" src="//csite.nicepage.com/Images/Site/responsive-laptop.png"></a>
+                <a class="hidden-xs" href="#" id="previewTabletBtn" data-preview-size="820px"><img alt="Responsive Tablet Mode" src="//csite.nicepage.com/Images/Site/responsive-tablet.png"></a>
+                <a class="hidden-xs" href="#" id="previewPhoneHorizontalBtn" data-preview-size="640px"><img alt="Responsive Phone Horizontal Mode" src="//csite.nicepage.com/Images/Site/responsive-phone-horizontal.png"></a>
+                <a class="hidden-xs" href="#" id="previewPhoneBtn" data-preview-size="440px"><img alt="Responsive Phone Mode" src="//csite.nicepage.com/Images/Site/responsive-phone.png"></a>
+                <a class="close" href="/ht/4747203/we-create-unique-brand-experiences-html-template"><img alt="Close" src="//csite.nicepage.com/Images/Site/icon-close.png"></a>
+            </div>
+            <div class="page-preview-body">
+                <iframe id="livePreviewFrame" src="https://website3159880.nicepage.io/Page-18.html?version=81a6a6da-6ea0-4e47-a6c6-24e2bca6fe7a" width="1057" height="640" style="width:100%;"></iframe>
+            </div>
+        </div>
+        <a style="position:absolute;top:17px;left:10px;" href="/"><img alt="NicePage.com" src="//csite.nicepage.com/Images/logo-w.png"></a>
+        
+                <script>
+                    if (window.parent) {
+                        var _w = 0, _h = 0;
+                        var updateFormSize = function () {
+                            var form = $('form.shaped-form-extended,form.shaped-form');
+                            var w = form.outerWidth(true);
+                            var h = form.outerHeight(true);
+                            if (Math.abs(_w - w) > 5 || Math.abs(_h - h) > 5) {
+                                _w = w;
+                                _h = h;
+                                var msg = { key: 'login-frame-size', width: w, height: h };
+                                window.parent.postMessage(msg, "*");
+                            }
+                            setTimeout(updateFormSize, 300);
+                        }
+                        updateFormSize();
+                    }
+                </script>
+            
+        </body>
+   </div>
+</body>
+</html>

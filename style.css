@@ -1,0 +1,10 @@
+.land{
+    align-items: end;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+}
+.whole{
+  display: flex;
+justify-content: end;
+}
